@@ -11,7 +11,7 @@ var app = new Framework7({
     },
 	cache:false,
 	cacheDuration: 0,
-	modalTitle: 'Home',
+	modalTitle: 'App Framework7',
 	panel: {
 		swipe: true,
 	},
@@ -22,23 +22,25 @@ var app = new Framework7({
     	name: 'home',
   		},
 		{
-		path: '/productos/',
-    	url: 'productos.html',
-    	name: 'productos',
+		path: '/info/',
+    	url: 'info.html',
+    	name: 'info',
   		},
 		{
 		path: '/perfil/',
     	url: 'perfil.html',
     	name: 'perfil',
-  		}
+  		},
 		{
-		path: '/info/',
-    	url: 'info.html',
-    	name: 'info',
-  		}
+		path: '/productos/',
+    	url: 'productos.html',
+    	name: 'productos',
+  		},
+		
+		
 	],
 	dialog: {
-		title: 'La Mezcla',
+		title: 'Diseño Web App',
 		buttonOk: 'Aceptar',
   	},
 	popup: {
